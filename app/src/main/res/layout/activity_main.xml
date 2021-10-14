@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="10dp">
+            android:padding="11dp">
 
 
             <TextView
@@ -82,7 +82,7 @@
             android:id="@+id/btn_reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RESET"
+            android:text="@string/reset"
             android:layout_gravity="center"/>
     </LinearLayout>
 
@@ -137,7 +137,7 @@
             android:layout_marginTop="31dp"
             android:layout_marginEnd="35dp"
             android:layout_marginBottom="51dp"
-            android:text="B"
+            android:text="@string/b"
             android:textColor="#0000ff"
             android:textSize="20sp" />
 
@@ -190,7 +190,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
-            android:text="RGB VALUES"
+            android:text="@string/rgb_values"
+            android:textSize="20sp"
             android:gravity="center"
             android:layout_marginTop="7dp"/>
     </RelativeLayout>
@@ -205,9 +206,9 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="7dp"
-            android:text="HEXCOLOR CODE:"
+            android:text="@string/hexcolor_code"
             android:textSize="20sp" />
 
         <TextView
@@ -215,9 +216,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="7dp"
-            android:layout_marginLeft="30dp"
-            android:layout_toRightOf="@+id/textView4"
-            android:text="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/textView4"
+            android:text="@string/_000000"
             android:textSize="20sp" />
 
     </RelativeLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PickHEX</string>
+    <string name="hexcolor_code">HEXCOLOR CODE:</string>
+    <string name="_000000">#000000</string>
+    <string name="rgb_values">RGB VALUES</string>
+    <string name="b">B</string>
+    <string name="reset">RESET</string>
 </resources>
